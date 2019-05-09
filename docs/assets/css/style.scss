@@ -1,0 +1,25 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-size: 18px;
+
+  margin: 0 10%;
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+}
