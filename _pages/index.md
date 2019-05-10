@@ -20,3 +20,9 @@ permalink: /
 
 ## 编写方式
 本博客以准备前端面试为导向，以面试问题为脉络，梳理前端各知识点。在每一个问题最后都会有引申问题，供参考复习使用。
+
+
+## 致谢
+- [Google](https://www.google.com/)
+- [Github](https://github.com/)
+- [StackOverflow](https://stackoverflow.com)
