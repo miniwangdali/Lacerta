@@ -5,10 +5,10 @@ services:
     container_name: lacerta-app
     restart: always
     build:
-      context: ./docs
+      context: ./
       dockerfile: Dockerfile.docker.dev
     ports:
       - 4000:4000
     volumes:
-      - ./docs:/usr/src/app/
+      - ./:/usr/src/app/
 

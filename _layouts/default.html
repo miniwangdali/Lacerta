@@ -20,7 +20,7 @@
     </h2>
 
     <ul class="menu-item">
-        <li><a href="{{ site.baseurl }}{% link _pages/index.md %}">首页</a></li>
+        <li><a href="{{ site.baseurl }}{% link _pages/index.md %}">撰写初衷</a></li>
         <li><a href="{{ site.baseurl }}{% link _pages/frontend-interview.md %}">前端面试</a></li>
         <li><a href="{{ site.baseurl }}{% link _pages/website-development.md %}">网站开发</a></li>
         <li><a href="{{ site.baseurl }}{% link _pages/programming.md %}">开发相关</a></li>
@@ -28,7 +28,9 @@
     </ul>
 
     {% if site.github.is_project_page %}
-    <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+    <div class="github-links">
+        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+    </div>
     {% endif %}
 </div>
 
