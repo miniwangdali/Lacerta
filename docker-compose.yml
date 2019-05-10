@@ -1,0 +1,14 @@
+version: '3.1'
+
+services:
+  app:
+    container_name: lacerta-app
+    restart: always
+    build:
+      context: ./docs
+      dockerfile: Dockerfile.docker.dev
+    ports:
+      - 4000:4000
+    volumes:
+      - ./docs:/usr/src/app/
+

@@ -10,6 +10,11 @@
 4. `bundle exec jekyll serve`
 5. go [http://127.0.0.1:4000/Lacerta/](http://127.0.0.1:4000/Lacerta/)
 
+or
+
+1. `docker-compose up`
+2. go [http://127.0.0.1:4000/Lacerta/](http://127.0.0.1:4000/Lacerta/)
+
 There are two system test pages:
 1. [About Page](http://127.0.0.1:4000/Lacerta/about/)
 2. [Demo Post](http://127.0.0.1:4000/Lacerta/jekyll/update/2019/04/07/welcome-to-jekyll.html)
