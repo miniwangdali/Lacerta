@@ -1,0 +1,25 @@
+@import "../variables.scss";
+.page-container {
+  padding: $space--medium $space--large;
+  color: $text-01;
+  .markdown-section {
+    h1,
+    h2,
+    h3 {
+      text-shadow: 0 0 0 $gray;
+      color: $primary;
+    }
+    h1 {
+      font-size: $font-size--xlarge;
+    }
+    h2 {
+      font-size: $font-size--large;
+    }
+    h3 {
+      font-size: $font-size--mlarge;
+    }
+    a[href] {
+      color: $secondary;
+    }
+  }
+}
