@@ -25,7 +25,7 @@ github_username:  Jozdortraz
 github: [metadata]
 repository: draupnirstudio/Lacerta
 
-include: ['_pages']
+include: ['_pages', 'frontend-interview']
 
 # Build settings
 markdown: kramdown

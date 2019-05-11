@@ -7,32 +7,32 @@ permalink: /frontend-interview/
 ## Interview
 - Interview Preparation
     - 前端面试需要准备什么
-    - 如何找工作
+    - [如何找工作]({{ site.baseurl }}{% link frontend-interview/interview/interview-preparation/job-seeking.md %})
     - 简历内容应该写什么
     - 我之前的教育经历不是很理想，怎么办
     - 我之前的工作经历不是很理想，怎么办
     - 准备过程中需不需要花精力在数据结构与算法上
     - 我只在国内找工作，需不需要投入经历在英语上
     
-- Interview Questions
+- Interviewing
     - 面试官到底想要了解什么
-    - 如何回答面试问题
+    - [如何回答面试问题]({{ site.baseurl }}{% link frontend-interview/interview/interviewing/interview-questions-answering.md %})
 
 - Career Development
     - 毕业了是去小公司还是大公司
-    - 前端职业规划
+    - [前端职业规划]({{ site.baseurl }}{% link frontend-interview/interview/career-development/frontend-engineer-career.md %})
     
 
 ## HTML
-- HTML History
+- [HTML History]({{ site.baseurl }}{% link frontend-interview/html/html-history.md %})
 - HTML Tags
-    - doctype
+    - [doctype]({{ site.baseurl }}{% link frontend-interview/html/html-tags/doctype.md %})
     - head
     - meta
     - link
     - script
     - body
-    - p
+    - [p]({{ site.baseurl }}{% link frontend-interview/html/html-tags/p.md %})
     - div
     - img
     - span
