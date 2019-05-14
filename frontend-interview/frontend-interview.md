@@ -37,32 +37,46 @@ permalink: /frontend-interview/
     - img
     - span
     - form
+    - fieldset
     - input
         - 如何设置input的高度
     - table
         - 如何添加单元格左右间距
-        
 - HTML 5
+    - Upload image and get thumbnail
 - CORS
-- 
 
 ## CSS
 - CSS History
 - CSS3
 - CSS3 Animation
+
 - Layout
     - 如何垂直居中
     - 如何设置Sticky Footer
+    - 不添加`position`属性的时候，为什么使用`top`, `bottom`, `left`, `right`之后无作用
+    
+        
 - CSS Processors
-- Sass
-- Less
+    - Sass
+    - Less
 
 
 ## Javascript
 - Grammar
-    - Function
     - Type
-    - Closure
+        - Object
+            - 检测一个对象有某个key
+            - 检测一个对象有某个值
+        - Null
+            - 检测一个变量是否为空
+        - Undefined
+            - 检测一个变量是否未定义
+        - String 
+        - Number
+        - Symbol
+        - Function     
+- Closure
 - ES6
 - Prototype
 - Hoisting
@@ -84,11 +98,13 @@ permalink: /frontend-interview/
 - Transclusion
 - Zone.js
 - Dev Tools
+- Custom Library
 
 
 ## Security
 - XSS
 - CSRF
+- Hash Flooding 
 - SQL Injection
 
 ## Authentication
@@ -105,6 +121,7 @@ permalink: /frontend-interview/
     - Blink
     - Trident
     - Gecko
+- Local Notifications
 
 ## Network
 - TCP/IP
@@ -116,6 +133,8 @@ permalink: /frontend-interview/
 
 ## Typescript
 - Grammar
+    - 如何定义函数类型
+- Index Signature
 - Decorator
 
 ## Data Structure && Algorithm
@@ -260,4 +279,6 @@ permalink: /frontend-interview/
 - Permissions
 
 ## Web Assembly
+
 ## MISC
+- RubberDuck Debugging
