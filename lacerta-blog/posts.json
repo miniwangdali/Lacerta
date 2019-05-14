@@ -1,0 +1,81 @@
+[
+  {
+    "layout": "default",
+    "title": "About",
+    "permalink": "/about/",
+    "markdown": "\r\n\r\nThis is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)\r\n\r\nYou can find the source code for Minima at GitHub:\r\n[jekyll][jekyll-organization] /\r\n[minima](https://github.com/jekyll/minima)\r\n\r\nYou can find the source code for Jekyll at GitHub:\r\n[jekyll][jekyll-organization] /\r\n[jekyll](https://github.com/jekyll/jekyll)\r\n\r\n\r\n[jekyll-organization]: https://github.com/jekyll\r\n"
+  },
+  {
+    "layout": "default",
+    "title": "Lacerta",
+    "permalink": "/",
+    "markdown": "\r\n\r\n# Lacerta - All for Frontend\r\n\r\n在平常工作、面试以及教学过程中，感触最深的就是前端从业人员的水平参差不齐，究其原因在于培训时间短，基础知识不扎实，知识盲区比较分散。目前，前端的主要学习方法仍然停留在自学，几乎很少有大学会专门开设前端专业，做的比较好的也只是有一门或两门前端设计开发的课程。这些教授前端课程的大学教授本身擅长的大概率是计算机基础理论，而对前端的知识掌握并不理想，导致大部分学校出来的应届毕业生很少有符合大公司前端从业人员标准的情况。\r\n\r\n自学方面，前端的学习以网课以及市面上的一些网上教程和纸质版教程为主。这些教程良莠不齐，作为前端的初学者更是难以判断一个教程的质量。此外，市面上的大部分网课都集中在速成网页制作上而很少有系统讲解前端基础的课程。很多爱好者因为喜欢网页制作进入前端行业，却因为学习材料以及学习方法的问题，造成了面试过不去，或者面试过了不会制作网页，或者网页做出来但是代码质量低等情况，令各大项目负责人以及前端工程师本人头疼不已。\r\n\r\n本博客旨在解决三个问题：\r\n1. 如何通过大部分公司的前端面试\r\n2. 如何制作网站\r\n3. 如何编写高质量的前端代码\r\n\r\n本博客面向对象为有一定基础的前端工程师、爱好者及相关从业人员。因作者水平有限，不妥之处还望及时指正。\r\n\r\n\r\n## 编写方式\r\n本博客以准备前端面试为导向，以面试问题为脉络，梳理前端各知识点。在每一个问题最后都会有引申问题，供参考复习使用。\r\n\r\n\r\n## 致谢\r\n- [Google](https://www.google.com/)\r\n- [Github](https://github.com/)\r\n- [StackOverflow](https://stackoverflow.com)"
+  },
+  {
+    "layout": "default",
+    "title": "杂七杂八",
+    "permalink": "/misc/",
+    "markdown": "\r\n"
+  },
+  {
+    "layout": "default",
+    "title": "开发相关",
+    "permalink": "/programming/",
+    "markdown": "\r\n"
+  },
+  {
+    "layout": "default",
+    "title": "网站开发",
+    "permalink": "/website-development/",
+    "markdown": "\r\n"
+  },
+  {
+    "layout": "default",
+    "title": "Welcome to Jekyll!",
+    "date": "2019-04-07 14:39:26 +0800",
+    "categories": "jekyll update",
+    "markdown": "\r\nYou’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.\r\n\r\nTo add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.\r\n\r\nJekyll also offers powerful support for code snippets:\r\n\r\n{% highlight ruby %}\r\ndef print_hi(name)\r\n  puts \"Hi, #{name}\"\r\nend\r\nprint_hi('Tom')\r\n#=> prints 'Hi, Tom' to STDOUT.\r\n{% endhighlight %}\r\n\r\nCheck out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].\r\n\r\n[jekyll-docs]: https://jekyllrb.com/docs/home\r\n[jekyll-gh]:   https://github.com/jekyll/jekyll\r\n[jekyll-talk]: https://talk.jekyllrb.com/\r\n"
+  },
+  {
+    "layout": "default",
+    "title": "Frontend-Interview",
+    "permalink": "/frontend-interview/",
+    "markdown": "\r\n\r\n## Interview\r\n- Interview Preparation\r\n    - 前端面试需要准备什么\r\n    - [如何找工作]({{ site.baseurl }}{% link frontend-interview/interview/interview-preparation/job-seeking.md %})\r\n    - 简历内容应该写什么\r\n    - 我之前的教育经历不是很理想，怎么办\r\n    - 我之前的工作经历不是很理想，怎么办\r\n    - 准备过程中需不需要花精力在数据结构与算法上\r\n    - 我只在国内找工作，需不需要投入经历在英语上\r\n    \r\n- Interviewing\r\n    - 面试官到底想要了解什么\r\n    - [如何回答面试问题]({{ site.baseurl }}{% link frontend-interview/interview/interviewing/interview-questions-answering.md %})\r\n\r\n- Career Development\r\n    - 毕业了是去小公司还是大公司\r\n    - [前端职业规划]({{ site.baseurl }}{% link frontend-interview/interview/career-development/frontend-engineer-career.md %})\r\n    \r\n\r\n## HTML\r\n- [HTML History]({{ site.baseurl }}{% link frontend-interview/html/html-history.md %})\r\n- HTML Tags\r\n    - [doctype]({{ site.baseurl }}{% link frontend-interview/html/html-tags/doctype.md %})\r\n    - head\r\n    - meta\r\n    - link\r\n    - script\r\n    - body\r\n    - [p]({{ site.baseurl }}{% link frontend-interview/html/html-tags/p.md %})\r\n    - div\r\n    - img\r\n    - span\r\n    - form\r\n    - input\r\n        - 如何设置input的高度\r\n    - table\r\n        - 如何添加单元格左右间距\r\n        \r\n- HTML 5\r\n- CORS\r\n- \r\n\r\n## CSS\r\n- CSS History\r\n- CSS3\r\n- CSS3 Animation\r\n- Layout\r\n    - 如何垂直居中\r\n    - 如何设置Sticky Footer\r\n- CSS Processors\r\n- Sass\r\n- Less\r\n\r\n\r\n## Javascript\r\n- Grammar\r\n    - Function\r\n    - Type\r\n    - Closure\r\n- ES6\r\n- Prototype\r\n- Hoisting\r\n- Module\r\n- Promise\r\n- Runtime\r\n\r\n## Angular\r\n- Directives\r\n- Pipes\r\n- Child Router\r\n- `<ng-content>`\r\n- AOT\r\n- Digest Cycle\r\n- Dependency Injection\r\n- Life Cycle Hooks\r\n- Dirty Checking\r\n- BOM\r\n- Transclusion\r\n- Zone.js\r\n- Dev Tools\r\n\r\n\r\n## Security\r\n- XSS\r\n- CSRF\r\n- SQL Injection\r\n\r\n## Authentication\r\n- JWT\r\n- OAuth\r\n\r\n## Browser\r\n- Page Rendering\r\n    - 浏览器地址栏输入网址，敲回车后，到页面展示在浏览器里，这之间，发生了什么\r\n- V8\r\n- Optimization\r\n- Browser Engine\r\n    - Webkit\r\n    - Blink\r\n    - Trident\r\n    - Gecko\r\n\r\n## Network\r\n- TCP/IP\r\n- WebSocket\r\n- HTTP\r\n- HTTPS\r\n- OSI\r\n\r\n\r\n## Typescript\r\n- Grammar\r\n- Decorator\r\n\r\n## Data Structure && Algorithm\r\n- Sorting\r\n- String Manipulation\r\n- Searching\r\n- Graph\r\n- Tree\r\n\r\n\r\n## SEO\r\n- Meta Tags\r\n- SiteMap\r\n- Robots.txt\r\n- Server Side Rendering\r\n- Keyword Optimization\r\n- HTML Semantics\r\n\r\n## Package Managers\r\n- NPM\r\n- Yarn\r\n\r\n## Design Patterns\r\n- Factory\r\n- Singleton\r\n- Prototype\r\n- Behavioral\r\n- Builder\r\n- Abstract Factory\r\n- Chain of Responsibility\r\n- Observer\r\n- Adapter\r\n- Delegate\r\n- Mediator\r\n\r\n\r\n## Build Tools\r\n- Webpack\r\n- Grunt\r\n- Babel\r\n\r\n\r\n## Architecture\r\n- MVC\r\n- MVVM\r\n- VIPER\r\n\r\n## System Design\r\n- Taobao\r\n- Facebook\r\n- Wechat\r\n- 12306\r\n\r\n## Testing\r\n- Testing Frameworks\r\n- Unit Test\r\n- UI Test\r\n- Automation Test\r\n\r\n\r\n## NodeJS\r\n- I/O\r\n- Event Driving Programming\r\n- Event Loop\r\n- REPL\r\n- Debug\r\n- LibUV\r\n- EventEmitter\r\n- Streams\r\n- DNS Module\r\n- Express.JS\r\n    - Express Middleware\r\n- gRPC\r\n- Authentication\r\n    - Passport.JS\r\n\r\n## Git\r\n- Git Principles\r\n- Rebase\r\n- Reset\r\n- Git Flow\r\n- Git Workflow\r\n- Git vs SVN\r\n\r\n## Backend\r\n- GraphQL\r\n- SpringBoot\r\n- Laravel\r\n- Ruby On Rails\r\n\r\n## Database\r\n- MySQL\r\n    - Disaster Recovery\r\n    - Read Write Splitting\r\n    - MyISAM\r\n    - InnoDB\r\n    - Information_Schema\r\n    - Security\r\n    - Index\r\n    - Collation\r\n    - Trigger\r\n    - Foreign Keys\r\n    - Procedure\r\n    - Transactions\r\n- Redis\r\n- MongoDB\r\n\r\n## DevOps\r\n- Docker\r\n- K8S\r\n- Travis\r\n- Jenkins\r\n- JIRA\r\n\r\n\r\n## iOS\r\n- OC\r\n    - Macros\r\n    - Runtime\r\n- Swift\r\n    - Grammar\r\n    - Mirror\r\n    - Inheritance\r\n    - Enums\r\n- RunLoop\r\n- Mach-O\r\n- Optimization\r\n- Instruments\r\n- CocoaPods\r\n- GCD\r\n\r\n## Marketing\r\n- UV/PV\r\n- Persona\r\n- User Retention\r\n\r\n## Linux\r\n- Cron Jobs\r\n- Hosts\r\n- Firewall\r\n- SSH\r\n- Permissions\r\n\r\n## Web Assembly\r\n## MISC\r\n"
+  },
+  {
+    "layout": "default",
+    "title": "HTML History",
+    "permalink": "/frontend-interview/html/html-history",
+    "markdown": "\r\n"
+  },
+  {
+    "layout": "default",
+    "title": "HTML Tag - \\<doctype\\>",
+    "permalink": "/frontend-interview/html/html-tags/doctype",
+    "markdown": "\r\n"
+  },
+  {
+    "layout": "default",
+    "title": "HTML Tag - \\<p\\>",
+    "permalink": "/frontend-interview/html/html-tags/p",
+    "markdown": "\r\n"
+  },
+  {
+    "layout": "default",
+    "title": "Frontend Engineer Career",
+    "permalink": "/frontend-interview/interview/career-development/frontend-engineer-career",
+    "markdown": "\r\n\r\n"
+  },
+  {
+    "layout": "default",
+    "title": "Job Seeking",
+    "permalink": "/frontend-interview/interview/interview-preparation/job-seeking",
+    "markdown": "\r\n\r\n"
+  },
+  {
+    "layout": "default",
+    "title": "Interview Questions Answering",
+    "permalink": "/frontend-interview/interview/interviewing/interview-questions-answering",
+    "markdown": "\r\n\r\n"
+  }
+]

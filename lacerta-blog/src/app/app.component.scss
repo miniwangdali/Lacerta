@@ -1,0 +1,78 @@
+@import "./variables.scss";
+.page-header {
+  width: 100%;
+  height: $space--xxlarge * 5;
+  background: $background-primary;
+  padding: $space--xxlarge + $space--medium;
+  .project-name,
+  .project-tagline {
+    color: $text-white;
+    text-align: center;
+    width: 100%;
+    text-shadow: 0 0 $border-width--small $dark;
+  }
+  .project-name {
+    font-size: $font-size--xxxlarge;
+  }
+  .project-tagline {
+    font-size: $font-size--mlarge;
+    margin: $space--large 0;
+    font-weight: normal;
+  }
+}
+
+.navigation-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 $space--xxlarge * 3;
+  list-style: none;
+  .navigation-list-item {
+    border-radius: $border-radius--small;
+    transition: background-color 0.125s ease;
+    &:hover {
+      background-color: $shadow-01;
+    }
+    a {
+      display: inline-block;
+      padding: $space--small $space--medium;
+      text-shadow: 0 0 $border-width--small $dark;
+      color: $text-white;
+      transition: color 0.25s ease;
+      &.active {
+        color: $alternative;
+      }
+    }
+  }
+}
+
+.main--content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 1rem 0;
+  .aside--menu {
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-basis: $space--xxlarge * 3;
+  }
+  .article--main-content {
+    flex-grow: 1;
+  }
+}
+
+.page-footer {
+  text-align: left;
+  border-top: solid 1px $text-03;
+  margin: 0 $space--xxlarge * 3;
+  padding: 1rem 0;
+  color: $text-03;
+  font-weight: 300;
+  font-size: $font-size--small;
+  .love-glyph {
+    color: $love;
+  }
+}
