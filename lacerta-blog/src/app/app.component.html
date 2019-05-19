@@ -1,9 +1,12 @@
-<header class="page-header" role="banner">
+<header class="page-header" role="banner" [ngClass]="{'sticky': isStickyHeader}">
   <h1 class="project-name">{{title}}</h1>
   <h2 class="project-tagline">
     All for Frontend
   </h2>
-  <nav>
+  <nav (click)="toggleNav()" [ngClass]="{'open': isNavOpen}">
+    <div class="icon">
+      <menu-icon [open]="isNavOpen"></menu-icon>
+    </div>
     <ul class="navigation-list">
       <li *ngFor="let page of pages" class="navigation-list-item">
         <a [routerLink]="page.permalink" routerLinkActive="active" [routerLinkActiveOptions]="{exact:
