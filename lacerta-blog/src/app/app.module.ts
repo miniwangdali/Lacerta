@@ -4,11 +4,13 @@ import { HttpClientModule }    from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PageComponent } from './page/page.component';
+import { MenuIconComponent } from './menu-icon/menu-icon.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PageComponent
+    PageComponent,
+    MenuIconComponent
   ],
   imports: [
     AppRoutingModule,

@@ -12,6 +12,10 @@ import { PageComponent } from './page/page.component';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
+
+  public isStickyHeader = false;
+  public isNavOpen = false;
+
   constructor(
     private titleService: PageTitleService,
     private pageService: PageService,
@@ -31,45 +35,19 @@ export class AppComponent implements OnInit {
         };
       })
     );
+
+    document.body.addEventListener('scroll', () => {
+      if (document.body.scrollTop > 320 && !this.isStickyHeader) {
+        this.isStickyHeader = true;
+      } else if (document.body.scrollTop < 320 && this.isStickyHeader) {
+        this.isStickyHeader = false;
+      }
+    });
   }
 
-  // ngOnInit(): void {
-  //   this.pageService.getPosts().forEach(p => {
-  //     const segments = getURLSegmentArray(p.permalink);
-  //     const route = this.generateRoute(segments);
-  //     this.appendRoute(route, this.router.config);
-  //     console.log(this.router.parseUrl('/frontend-interview/interview/interview-preparation/job-seeking'));
-  //   });
-  // }
-
-  // private appendRoute(route: Route, scopedRoutes: Route[]) {
-  //   const existingRoute = scopedRoutes.find(r => r.path === route.path);
-  //   if (existingRoute) {
-  //     if (existingRoute.children && existingRoute.children.length > 0) {
-  //       if (route.children && route.children.length > 0) {
-  //         route.children.forEach(r => this.appendRoute(r, existingRoute.children));
-  //       }
-  //     } else {
-  //       if (route.children && route.children.length > 0) {
-  //         existingRoute.children = route.children;
-  //       }
-  //     }
-  //   } else {
-  //     scopedRoutes.unshift(route);
-  //   }
-  // }
-
-  // private generateRoute(s: string[]) {
-  //   const result: Route = {
-  //     path: s[0] || '',
-  //     component: PageComponent,
-  //   };
-  //   const rest = s.slice(1);
-  //   if (rest.length > 0) {
-  //     result.children = [this.generateRoute(rest)]
-  //   }
-  //   return result;
-  // }
+  toggleNav() {
+    this.isNavOpen = !this.isNavOpen;
+  }
 
   get pages() {
     const result = this.pageService.getPages();
