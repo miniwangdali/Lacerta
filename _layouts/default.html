@@ -14,7 +14,7 @@
     <!-- Baidu Analytics -->
     <script>
         var _hmt = _hmt || [];
-        (function() {
+        (function () {
             var hm = document.createElement("script");
             hm.src = "https://hm.baidu.com/hm.js?3dc232a04005ebeb6bfcdb99f4c1c4da";
             var s = document.getElementsByTagName("script")[0];
@@ -26,14 +26,15 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140408067-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'UA-140408067-1');
     </script>
-
-
-
 </header>
 <body>
 <div class="page-header" role="banner">
@@ -44,18 +45,15 @@
     </h2>
 
     <ul class="menu-item">
-        <li><a href="{{ site.baseurl }}{% link _pages/index.md %}">撰写初衷</a></li>
-        <li><a href="{{ site.baseurl }}{% link frontend-interview/frontend-interview.md %}">前端面试</a></li>
+        <li><a href="{{ site.baseurl }}{% link _pages/index.md %}">前端面试</a></li>
         <li><a href="{{ site.baseurl }}{% link _pages/website-development.md %}">网站开发</a></li>
         <li><a href="{{ site.baseurl }}{% link _pages/programming.md %}">开发相关</a></li>
         <li><a href="{{ site.baseurl }}{% link _pages/misc.md %}">杂七杂八</a></li>
     </ul>
 
-    {% if site.github.is_project_page %}
     <div class="github-links">
-        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+        <a href="https://github.com/draupnirstudio/Lacerta" class="btn">View on GitHub</a>
     </div>
-    {% endif %}
 </div>
 
 <main id="content" class="main-content" role="main">
