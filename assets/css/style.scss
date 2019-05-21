@@ -4,6 +4,12 @@
 @import "{{ site.theme }}";
 
 
+@media screen and (min-width: 64em) {
+  .page-header {
+    padding: 3rem 6rem;
+  }
+}
+
 .menu-item {
   display: flex;
   align-items: center;

@@ -5,14 +5,13 @@
 
 ## Dev
 1. install jekyll using `gem install jekyll bundler`
-2. `cd docs`
-3. `bundle install`
-4. `bundle exec jekyll serve`
-5. go [http://127.0.0.1:4000/Lacerta/](http://127.0.0.1:4000/Lacerta/)
+2. `bundle install`
+3. `bundle exec jekyll serve`
+4. go [http://127.0.0.1:4000/Lacerta/](http://127.0.0.1:4000/Lacerta/)
 
 or
 
-1. `docker-compose up`
+1. `docker-compose up --build`
 2. go [http://127.0.0.1:4000/Lacerta/](http://127.0.0.1:4000/Lacerta/)
 
 There are two system test pages:
@@ -21,6 +20,7 @@ There are two system test pages:
 
 ## Contribute
 Follow [Jekyll Dev Guide](https://jekyllrb.com/docs/)
+
 ### New Page
 `bundle exec jekyll page "page_name"`
 

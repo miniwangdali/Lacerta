@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/Lacerta" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jozdortraz
-github_username:  Jozdortraz
+github_username:  jozdortraz
 
 github: [metadata]
 repository: draupnirstudio/Lacerta
